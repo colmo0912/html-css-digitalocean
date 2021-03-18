@@ -4,3 +4,57 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* ----NAV----- */
+
+nav {
+
+    width: 100%;
+}
+
+.nav_container {
+
+    width: 75%;
+    margin: auto;
+    border: 1px solid;
+    padding: 20px 0;
+    
+}
+
+.clearfix::after{
+
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.logo img {
+
+    width: 150px;
+    
+}
+
+.central_ul {
+
+    padding-right: 700px;
+}
+
+.nav_ul {
+    float: right;
+}
+
+.central_ul li, .right_ul li {
+
+    padding-left: 10px;
+}
+
+.central_ul,.right_ul,.central_ul li, .right_ul li,.logo,.nav_ul{
+
+    display: inline;
+    margin: 0;
+    vertical-align: middle;
+    
+}
+
+
