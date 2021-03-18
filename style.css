@@ -21,7 +21,7 @@ nav {
     
 }
 
-.clearfix::after{
+.clear::after{
 
     content: "";
     display: table;
@@ -35,18 +35,33 @@ nav {
     
 }
 
-.central_ul {
+.logo {
 
-    padding-right: 700px;
+    float: left;
+    width: 30%;
 }
+
 
 .nav_ul {
     float: right;
+    width: 70%;
+    text-align: right;
+}
+
+.central_ul {
+
+    padding-right: 500px;
 }
 
 .central_ul li, .right_ul li {
 
     padding-left: 10px;
+    list-style: none;
+}
+
+.central_ul li a, .right_ul li a {
+
+    text-decoration: none;
 }
 
 .central_ul,.right_ul,.central_ul li, .right_ul li,.logo,.nav_ul{
