@@ -129,6 +129,20 @@ form li {
     margin: 5px 0;
 }
 
+form button.btn{
+
+    background-image: url(img/google\ icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    
+}
+
+form button a {
+
+    text-decoration: none;
+    
+}
 
 
 
