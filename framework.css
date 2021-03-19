@@ -106,3 +106,16 @@
 .centred {
     text-align: center;
 }
+
+.vertical {
+
+    vertical-align: middle;
+}
+
+/* .margin-left {
+
+    margin-left: 25px;
+} */
+
+
+
