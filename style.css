@@ -245,48 +245,44 @@ form button a {
 .designed_for_row {
 
     margin: auto;
-    width: 40%;
+    width: 50%;
 
-}
-
-.chevron , .slider {
-
-    display: inline;
-    
-    padding: 190px 0;
 }
 
 .chevron {
 
     width: 5%;
     float: left;
-}
-
-.chevron .fas {
-
+    height: 100%;
     vertical-align: middle;
-    font-size: 40px;
 
 }
+
 
 .slider {
 
-    width: 90%;
+    width: 80%;
     float: left;
+    margin: auto;
 }
 
-.designed_for_row .slider {
+.slider img {
+
+    width: 100%;
+    height: auto;
+}
+
+/* .designed_for_row .slider {
 
     background-image: url("img/slide.jpg");
-    padding: 200px 0;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
+    padding: 190px 0;
+    
+} */
 
 .slider_click {
     
     margin: auto;
+    width: 100%;
 }
 
 .click_container {
@@ -295,17 +291,16 @@ form button a {
     width: 100%;
 }
 
-
-
 .click {
 
-    float: left;
     width: 10px;
     height: 10px;
     border-radius: 50%;
     border: 1px solid blue;
     margin: auto;
     margin: 5px;
+    display: inline-block
+    
 }
 
 
@@ -394,6 +389,17 @@ form button a {
         padding-bottom: 20px;
     }
 
+    .chevron .fas {
+
+        vertical-align: middle;
+        font-size: 120%;
+        
+    
+    }
+
+
+    
+
 }
 
 
@@ -455,17 +461,17 @@ form button a {
 }
 
 
-    @media all and (min-width:1500px) {
+@media all and (min-width:1500px) {
 
     
 
-    .partners .partners_container img {
+.prtners .partners_container img {
 
-        width: 200px;
-        height: 100px;
+    width: 200px;
+    height: 100px;
     
-    }
-    
+}
+
 
 
 
