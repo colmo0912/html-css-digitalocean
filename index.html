@@ -4,55 +4,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="framework.css">
     <link rel="stylesheet" href="style.css">
     <title>Digitalocean</title>
 
-   
-
-  
 </head>
 <body>
 
-     <!-- ------NAV------- -->
+    <div class="great_container">
 
-    <header>
-
-    <div class="nav_bottom">
-
-        <div class="logo">
-
-            <a href="#"><img src="img/logo.png" alt=""></a>
-
-        </div>
-
-
-        <div class="nav_bottom_list">
-
-            <ul class="central_ul">
-
-                <li><a href="#">Products</a><span class="nav_bottom_list_span">&#x2304;</span></li>
-                <li><a href="#">Customers</a></li>
-                <li><a href="#">Community</a> <span class="nav_bottom_list_span">&#x2304;</span></li>
-                <li><a href="#">Pricing</a></li>
+        <!-- NAV -->
+        <nav>
+            <div class="container">
+                <div class="row">
+    
+                    <div class="col-2 pdg-20">
+    
+                        <div class="logo">
+    
+                            <img src="img/logo.png" alt="">
+            
+                        </div>
+    
+                    </div>
+                    <div class="col-5 pdg-20">
+                        <ul class="central_ul hidden">
+    
+                            <li><a href="#">Products</a><span class="nav_primary_list_span">&#x2304;</span></li>
+                            <li><a href="#">Customers</a></li>
+                            <li><a href="#">Community</a> <span class="nav_primary_list_span">&#x2304;</span></li>
+                            <li><a href="#">Pricing</a></li>
+            
+                        </ul>
+                    </div>
+                    <div class="col-5 text-right pdg-20">
+    
+                        <ul class="right_ul hidden">
+    
+                            <li><a href="#">Docs</a></li>
+                            <li><a href="#">Support</a> <span class="nav_primary_list_span">&#x2304;</span></li>
+                            <li><a href="#">Login</a> <span class="nav_primary_list_span">&#x2304;</span></li>
+                            <li class="right_ul_btn"><a href="#">Sign Up</a></li>
+                        
+                        </ul>
+                        <div class="visible">
+                            <i class="fas fa-bars visible"></i>
+                        </div>
+                    
+    
+                    </div>
+    
+                </div>
+    
                 
-            </ul>
+            </div>
+        </nav>
 
-            <ul class="right_ul">
 
-                <li><a href="#">Docs</a></li>
-                <li><a href="#">Support</a><span class="nav_bottom_list_span">&#x2304;</span></li>
-                <li><a href="#">Login</a> <span class="nav_bottom_list_span">&#x2304;</span></li>
-                <li class="right_ul_btn"><a href="#">Sign Up</a></li>
-                
-            </ul>
+        
 
-        </div>
+
+
+
+        <!-- hero -->
+
+
+        
+        <section class="hero">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 hero_h1 pdg-10-r">
+                        <h1>
+                            The simplest cloud platform for developers & team
+                        </h1>
+                        <p class="hero_p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ut consequuntur tempora mollitia cumque tempore expedita, pariatur voluptas natus error dolore dicta maxime. Quae culpa impedit, rem nesciunt laborum totam!
+                        </p>
+                    </div>
+                    <div class="col-6 pdg-10 ">
+                        <div class="panel_sign_in pdg-10-l centred">
+                            <h3>Deploy your app in seconds</h3>
+                            <h3>Get started now</h3>
+                            <form>
+                                <div class="form-group">
+                                <input type="email"  placeholder="Name" class="form_lgr">
+                                </div>
+                                <div class="form-group">
+                                <input type="password" class="form_lgr" id="exampleInputPassword1" placeholder="Password">
+                                </div>
+                                <div class="form_btn">
+                                    <button type="submit" class="form_lgr bgd_blue white_txt centred">Create your account</button>
+                                </div>
+                                <div class="form_btn">
+                                    <button type="submit" class="form_lgr bgd_white centred">Sign Up with Google</button>
+                                </div>
+                                <h5 class="centred pdg-20">By signing up you agree to the <a href="#">Terms of service</a></h5>
+                            </form>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+
+        </section>
+
+
 
     </div>
-    </header>
 
-
-
+    
 
 </body>
 </html>
