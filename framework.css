@@ -69,6 +69,21 @@
     padding: 20px 0;
 }
 
+.pdg-30 {
+
+    padding: 30px 0;
+}
+
+.pdg-10-l{
+
+    padding-left: 10px;
+} 
+
+.pdg-10-r{
+
+    padding-right: 10px;
+} 
+
 .pdg-10-r {
 
     padding: 10px 10px 0 0px;
@@ -112,10 +127,17 @@
     vertical-align: middle;
 }
 
-/* .margin-left {
+.margin-left {
 
     margin-left: 25px;
-} */
+}
+
+.clearfix {
+
+    content: "";
+    clear: both;
+    display: table;
+}
 
 
 
