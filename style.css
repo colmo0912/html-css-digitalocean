@@ -240,6 +240,51 @@ form button a {
     width: 50%;
 }
 
+/* -----desiged for------ */
+
+.designed_for_row {
+
+    margin: auto;
+    width: 40%;
+
+}
+
+.chevron , .slider {
+
+    display: inline;
+    
+    padding: 200px 0;
+}
+
+.chevron {
+
+    width: 10%;
+    float: left;
+}
+
+.chevron .fas {
+
+    vertical-align: middle;
+    font-size: 40px;
+    
+
+}
+
+.slider {
+
+    width: 80%;
+    float: left;
+}
+
+.designed_for_row .slider {
+
+    background-image: url("img/slide.jpg");
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
 
 
 
@@ -281,8 +326,13 @@ form button a {
 
         display: block;
         color: blue;
-        padding-right: 20px;
+        /* padding-right: 20px; */
     
+    }
+
+    .col-5 .visible a i{
+
+        text-decoration: none;
     }
 
     .logo {
@@ -344,9 +394,15 @@ form button a {
 
         display: block;
         color: blue;
-        padding-right: 20px;
+        
     
     }
+
+    .col-5 .visible a i{
+
+        text-decoration: none;
+    }
+
 
     .hero .container .row .hero_h1 h1 {
 
