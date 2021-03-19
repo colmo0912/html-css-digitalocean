@@ -308,6 +308,19 @@ form button a {
 
     }
 
+    .deploy_container_border_left,.deploy_container_top_left,.deploy_container_top_right,.deploy_container_bottom_left,.deploy_container_bottom_right {
+
+        width: 100%;
+        text-align: left;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .deploy_container_top_left p,.deploy_container_bottom_left p {
+
+        padding-bottom: 20px;
+    }
+
 }
 
 
