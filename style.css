@@ -46,7 +46,7 @@
 
     list-style-type: none;
     display: inline;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 8px;
 
 }
 
@@ -59,7 +59,7 @@
 
 .col-5 .right_ul_btn a{
 
-    padding:10px 10px;
+    padding:10px 5px;
     border: 1px solid blue;
     border-radius: 10px;
     color: black;
@@ -141,7 +141,7 @@ form button.btn{
 form button a {
 
     text-decoration: none;
-    
+
 }
 
 
@@ -180,6 +180,12 @@ form button a {
 
         padding-left: 20px;
     }
+
+    .hero .col-6 {
+
+        width: 100%;
+        padding: 20px 0;
+    }
 }
 
 /* ------ TABLET VERSION -------- */
@@ -191,5 +197,12 @@ form button a {
 
         display: none;
     
+    }
+
+    .hero h1 {
+
+        font-size: 30px;
+        padding-bottom: 10px;
+
     }
 }
