@@ -144,6 +144,43 @@ form button a {
 
 }
 
+/* ---------partners---------- */
+
+.partners, .partners_container {
+
+    background-color: #f3f5f9
+    
+}
+
+.partners h4 {
+
+    color: grey;
+}
+
+.partners_container::after {
+
+    content: "";
+    display: table;
+    clear: both;
+
+
+}
+
+.partners .partners_container img {
+
+    width: 150px;
+    height: 100px;
+    
+}
+
+.partners .partners_container .col2 {
+
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+
 
 
 
