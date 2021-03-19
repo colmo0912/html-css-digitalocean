@@ -194,6 +194,37 @@ form button a {
 
 }
 
+/* deploy */
+
+.deploy_container {
+
+    width: 65%;
+    margin: auto;
+}
+
+.deploy_container_border_left {
+    border-left: 1px solid black;
+
+}
+
+.deploy_container .col-4 li {
+
+    list-style: none;
+    text-align: left;
+    padding: 10px 0 10px 10px;
+}
+
+.deploy_container .col-4 li a {
+    
+    text-decoration: none;
+    
+    
+}
+
+
+
+
+
 
 
 
