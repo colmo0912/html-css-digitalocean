@@ -207,19 +207,41 @@ form button a {
 
 }
 
+.deploy_container .col-4 {
+
+    padding: 0 10px;
+}
+
 .deploy_container .col-4 li {
 
     list-style: none;
     text-align: left;
     padding: 10px 0 10px 10px;
+    font-size: 20px;
 }
 
 .deploy_container .col-4 li a {
     
     text-decoration: none;
-    
-    
+
+
 }
+
+.deploy_container_top ,.deploy_container_bottom {
+
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+.deploy_container_top_left,.deploy_container_top_right,.deploy_container_bottom_left,.deploy_container_bottom_right {
+
+    float: left;
+    width: 50%;
+}
+
+
 
 
 
@@ -338,6 +360,21 @@ form button a {
         display: none;
     
     }
+
+}
+
+
+    @media all and (min-width:1500px) {
+
+    
+
+    .partners .partners_container img {
+
+        width: 200px;
+        height: 100px;
+    
+    }
+    
 
 
 
