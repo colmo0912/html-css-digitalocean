@@ -148,8 +148,14 @@ form button a {
 
 .partners, .partners_container {
 
-    background-color: #f3f5f9
-    
+    background-color: #f3f5f9;
+    margin: auto;
+
+}
+
+.partners {
+
+    width: 100%;
 }
 
 .partners h4 {
@@ -168,17 +174,36 @@ form button a {
 
 .partners .partners_container img {
 
-    width: 150px;
+    width: 140px;
     height: 100px;
-    
+
 }
 
-.partners .partners_container .col2 {
+/* .partners .partners_container .col2 {
 
     display: inline-block;
     vertical-align: middle;
     
+} */
+
+.partners h5 a {
+
+    text-decoration: none;
+    
 }
+
+.partners h5 a i {
+
+    vertical-align: middle;
+
+
+}
+
+
+
+
+
+
 
 
 
@@ -223,7 +248,26 @@ form button a {
         width: 100%;
         padding: 20px 0;
     }
+
+    .partners .partners_container .col-2 {
+
+        width: 50%;
+        
+        
+    }
+
+    .partners .partners_container .col-2 img {
+        margin-left: 30px;
+
+    }
+
 }
+
+
+
+
+
+
 
 /* ------ TABLET VERSION -------- */
 
@@ -248,6 +292,13 @@ form button a {
 
         font-size: 30px;
         padding-bottom: 10px;
+        
+    }
+
+    .partners .partners_container img {
+
+        width: 100px;
+        height: 70px;
         
     }
 }
