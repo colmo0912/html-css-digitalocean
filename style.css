@@ -303,6 +303,18 @@ form button a {
     
 }
 
+.future .features_item .row h4 a {
+
+    text-decoration: none;
+    
+}
+
+.future .features_item .row h4 a i {
+
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
 
 
 
