@@ -90,16 +90,16 @@
     padding: 80px 0;
 }
 
-.hero_h1 {
+.hero .container .row .hero_h1 h1{
 
-    font-size: 35px;
+    font-size: 45px;
     color: white;
     text-align: left;
 }
 
 .hero_p {
 
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     text-align: left;
     padding: 10px 0;
@@ -190,7 +190,7 @@ form button a {
 
 /* ------ TABLET VERSION -------- */
 
-@media all and (min-width:768px) {
+@media all and (min-width:768px) and (max-width:991px){
 
     
     .visible  {
@@ -199,10 +199,10 @@ form button a {
     
     }
 
-    .hero h1 {
+    .hero .container .row .hero_h1 h1 {
 
         font-size: 30px;
         padding-bottom: 10px;
-
+        
     }
 }
