@@ -179,20 +179,15 @@ form button a {
 
 }
 
-/* .partners .partners_container .col2 {
 
-    display: inline-block;
-    vertical-align: middle;
-    
-} */
 
-.partners h5 a {
+.partners h4 a {
 
     text-decoration: none;
     
 }
 
-.partners h5 a i {
+.partners h4 a i {
 
     vertical-align: middle;
 
