@@ -69,6 +69,11 @@
     padding: 20px 0;
 }
 
+.pdg-20-b {
+
+    padding-bottom: 20px;
+}
+
 .pdg-30 {
 
     padding: 30px 0;
@@ -130,6 +135,11 @@
 .margin-left {
 
     margin-left: 25px;
+}
+
+.margin-bottom {
+
+    margin-bottom: 20px;
 }
 
 .clearfix {
