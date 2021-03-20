@@ -402,8 +402,7 @@ footer .social_list li{
 
     width: 250px;
     border-radius: 20px;
-    
-    padding: 25px 10px;
+    padding: 26px 10px;
 }
 
 
@@ -413,6 +412,8 @@ footer .social_list li{
     background-color: rgb(0, 110, 255);
     height: 82px;
     position: relative;
+    border-radius: 20px;
+    margin-left: 10px;
 
 }
 
@@ -431,6 +432,8 @@ footer .social_list li{
 
     line-height: 120px;
     color: white;
+    font-size: 35px;
+    margin-left: -5px;
 }
 
 
@@ -438,7 +441,7 @@ footer .social_list li{
 
     width: 40px;
     height: 40px;
-    background-color: green;
+    background-color: white;
     border-radius: 50%;
     position: absolute;
     left: 100%;
