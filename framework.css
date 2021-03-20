@@ -64,6 +64,12 @@
     width: calc((100% / 12) * 12);
 }
 
+.pdg-10 {
+
+    padding: 10px 0;
+}
+
+
 .pdg-20 {
 
     padding: 20px 0;
@@ -72,6 +78,11 @@
 .pdg-20-b {
 
     padding-bottom: 20px;
+}
+
+.pdg-20-t {
+
+    padding-top: 20px;
 }
 
 .pdg-30 {
@@ -97,6 +108,11 @@
 .pdg-10-l {
 
     padding: 10px 0 10px 10px;
+}
+
+.pdg-30-l {
+
+    padding: 0px 0 30px 0px;
 }
 
 .bgd_blue {
@@ -142,11 +158,40 @@
     margin-bottom: 20px;
 }
 
+
+
 .clearfix {
 
     content: "";
     clear: both;
     display: table;
+}
+
+.back-color-grey {
+
+    background-color: #f3f5f9;
+}
+
+.txt_left {
+
+    text-align: left;
+}
+
+.txt_right {
+
+    text-align: right;
+}
+
+.col-6_margin {
+
+padding: 0 20px;
+    
+}
+
+.border_row {
+
+    border-bottom: 1px solid black;
+    
 }
 
 
