@@ -90,6 +90,11 @@
     padding: 30px 0;
 }
 
+.pdg-50 {
+
+    padding: 50px 0;
+}
+
 .pdg-10-l{
 
     padding-left: 10px;
@@ -118,6 +123,11 @@
 .bgd_blue {
 
     background-color: blue;
+}
+
+.bgd_white {
+
+    background-color: white;
 }
 
 .white_txt {
@@ -190,7 +200,7 @@ padding: 0 20px;
 
 .border_row {
 
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     
 }
 
