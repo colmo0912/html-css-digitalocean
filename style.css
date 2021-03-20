@@ -50,14 +50,14 @@
 
 }
 
-.col-5 .central_ul li a , .col-5 .right_ul li a {
+.col-6 .central_ul a , .col-4 .right_ul li a {
 
     text-decoration: none;
     color: black;
 
 }
 
-.col-5 .right_ul_btn a{
+.col-4 .right_ul_btn a{
 
     padding:10px 5px;
     border: 1px solid blue;
@@ -353,23 +353,6 @@ form button a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .get_started {
 
     width: 100%;
@@ -400,6 +383,82 @@ footer .social_list li{
 
     list-style: none;
     display: inline-block;
+}
+
+
+
+/* -------support-------- */
+
+
+.support {
+
+    position: fixed;
+    bottom: 20px;
+    right: 120px;
+
+}
+
+.support_msg {
+
+    width: 250px;
+    border-radius: 20px;
+    
+    padding: 25px 10px;
+}
+
+
+.support_icon {
+
+    width: 100px;
+    background-color: rgb(0, 110, 255);
+    height: 82px;
+    position: relative;
+
+}
+
+.support_msg,.support_icon,.caret,.support_notif {
+
+    float: left;
+}
+
+.support_icon img {
+
+    width: 100px;
+
+}
+
+.caret {
+
+    line-height: 120px;
+    color: white;
+}
+
+
+.support_notif_white{
+
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    transform: translate(-50%,-50%);
+
+}
+
+.support_notif {
+
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: red;
+
 }
 
 
