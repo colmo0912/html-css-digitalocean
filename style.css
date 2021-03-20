@@ -249,35 +249,34 @@ form button a {
 
 }
 
-.chevron {
 
-    width: 5%;
-    float: left;
-    height: 100%;
-    vertical-align: middle;
+
+.slider .slider_image {
+
+    background-image: url(img/slide.jpg);
+    padding: 250px 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center center;
 
 }
 
+.slider .chevron_left,.slider .chevron_right {
 
-.slider {
-
-    width: 80%;
-    float: left;
-    margin: auto;
+    line-height: 500px;
+    font-size: 50px;
 }
 
-.slider img {
+.chevron_left a,.chevron_right a{
+
+    text-decoration: none;
+}
+
+.container {
 
     width: 100%;
-    height: auto;
-}
-
-/* .designed_for_row .slider {
-
-    background-image: url("img/slide.jpg");
-    padding: 190px 0;
     
-} */
+}
 
 .slider_click {
     
@@ -314,6 +313,62 @@ form button a {
     vertical-align: middle;
     padding-left: 5px;
 }
+
+.row_test a {
+
+    text-decoration: none;
+}
+
+/* ----------------------------- */
+
+.rockerbox {
+
+    padding: 50px 0;    
+}
+
+.rockerbox img {
+
+    width: 350px;
+
+
+}
+
+.rockerbox .col-8 {
+
+    padding: 80px 0;
+}
+
+.chevron_left ,.chevron_right {
+
+    font-size: 50px;
+   
+
+}
+
+.chevron_left a ,.chevron_right a {
+
+    line-height: 326.68px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .get_started {
 
