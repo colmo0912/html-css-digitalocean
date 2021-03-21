@@ -16,7 +16,7 @@
 
 .container {
 
-    max-width: 70%;
+    max-width: 80%;
     margin: auto;
     
 }
@@ -35,11 +35,11 @@
 }
 
 
+.col-1 .logo img {
 
-.col-2 .logo img {
-
-    width: 120px;
+    width: 100px;
     vertical-align: middle;
+    
 }
 
 .central_ul li ,.right_ul li{
@@ -50,16 +50,16 @@
 
 }
 
-.col-6 .central_ul a , .col-4 .right_ul li a {
+.col-6 .central_ul a , .col-5 .right_ul li a {
 
     text-decoration: none;
     color: black;
 
 }
 
-.col-4 .right_ul_btn a{
+.col-5 .right_ul_btn a{
 
-    padding:10px 5px;
+    padding:6px 5px;
     border: 1px solid blue;
     border-radius: 10px;
     color: black;
@@ -297,7 +297,7 @@ form button a {
     border-radius: 50%;
     border: 1px solid blue;
     margin: auto;
-    margin: 5px;
+    margin: 3px;
     display: inline-block
     
 }
@@ -328,7 +328,7 @@ form button a {
 
 .rockerbox img {
 
-    width: 350px;
+    width: 330px;
 
 
 }
@@ -386,7 +386,6 @@ footer .social_list li{
 }
 
 
-
 /* -------support-------- */
 
 
@@ -405,6 +404,27 @@ footer .social_list li{
     padding: 26px 10px;
 }
 
+.support_msg_container {
+
+    position: relative;
+}
+
+.support_msg_container,.support_icon {
+
+    float: left;
+}
+
+.caret {
+
+    line-height: 120px;
+    color: white;
+    font-size: 35px;
+    margin-left: 25px;
+    position: absolute;
+    left: 90%;
+    top: 75%;
+    transform: translate(-50%,-50%);
+}
 
 .support_icon {
 
@@ -417,25 +437,11 @@ footer .social_list li{
 
 }
 
-.support_msg,.support_icon,.caret,.support_notif {
-
-    float: left;
-}
-
 .support_icon img {
 
     width: 100px;
 
 }
-
-.caret {
-
-    line-height: 120px;
-    color: white;
-    font-size: 35px;
-    margin-left: -5px;
-}
-
 
 .support_notif_white{
 
@@ -507,11 +513,12 @@ footer .social_list li{
 
         display: block;
         color: blue;
+        font-size: 25px;
         /* padding-right: 20px; */
     
     }
 
-    .col-5 .visible a i{
+    .col-5 .visible a {
 
         text-decoration: none;
     }
@@ -581,6 +588,33 @@ footer .social_list li{
         padding-left: 0;
     }
 
+    .support {
+
+        display: none;
+    }
+
+    .support_xs_md {
+
+        display: block;
+        
+    }
+
+    .support_msg_container,.support_icon {
+
+        float: none;
+
+    
+    }
+
+    
+    .rockerbox img {
+
+        width: 220px;
+    
+    
+    }
+
+
 
     
 
@@ -607,15 +641,18 @@ footer .social_list li{
 
         display: block;
         color: blue;
+        font-size: 30px;
         
     
     }
 
-    .col-5 .visible a i{
+    .col-5 .visible a {
 
         text-decoration: none;
+        
     }
 
+    
 
     .hero .container .row .hero_h1 h1 {
 
@@ -646,8 +683,27 @@ footer .social_list li{
 
         width: 50%;
 
-
     }
+
+    .support {
+
+        display: none;
+    }
+
+    .support_xs_md {
+
+        display: block;
+        
+    }
+
+    .support_msg_container,.support_icon {
+
+        float: none;
+
+    
+    }
+
+
 
 
 }
@@ -669,6 +725,12 @@ footer .social_list li{
 
         display: none;
     
+    }
+
+    .support_xs_md {
+
+        display: none;
+        
     }
 
     
