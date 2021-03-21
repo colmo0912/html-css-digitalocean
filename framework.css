@@ -64,6 +64,11 @@
     width: calc((100% / 12) * 12);
 }
 
+.pdg-5 {
+
+    padding: 5px 0;
+}
+
 .pdg-10 {
 
     padding: 10px 0;
@@ -83,6 +88,11 @@
 .pdg-20-t {
 
     padding-top: 20px;
+}
+
+.pdg-10-s {
+
+    padding: 0 10px;
 }
 
 .pdg-30 {
@@ -122,7 +132,7 @@
 
 .bgd_blue {
 
-    background-color: blue;
+    background-color: #0039b2;
 }
 
 .bgd_white {
@@ -216,6 +226,8 @@ padding: 0 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
+
 .test_speed_color {
 
     color: #00d5d1;
@@ -225,4 +237,33 @@ padding: 0 20px;
 
     color: #c7d1ed;
 } 
+
+.bdg_btn_google {
+
+    background-color: #579aff;
+}
+
+.view_color {
+
+    color: #3383ff
+}
+
+.view_color_all {
+
+    color: #051d4f
+}
+
+.view_color_p {
+
+    color:#b2bfe4;
+}
+
+.view_color_rockerbox{
+
+    color:#5e6c8a;
+}
+
+
+
+
 
