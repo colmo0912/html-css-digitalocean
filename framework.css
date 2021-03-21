@@ -74,6 +74,11 @@
     padding: 10px 0;
 }
 
+.pdg-10-t {
+
+    padding-top: 10px;
+}
+
 
 .pdg-20 {
 
@@ -261,6 +266,11 @@ padding: 0 20px;
 .view_color_rockerbox{
 
     color:#5e6c8a;
+}
+
+.footer_list_color {
+
+    color: #a5acbc;
 }
 
 
