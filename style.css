@@ -404,6 +404,7 @@ footer .social_list li{
     list-style: none;
     display: inline-block;
     padding: 10px 5px 10px 5px;
+    font-size: 25px;
 }
 
 
@@ -673,6 +674,11 @@ footer {
     padding-bottom: 220px;
 }
 
+.support_xs_md .support_icon {
+
+    margin: 0;
+}
+
 
 }
 
@@ -751,12 +757,6 @@ footer {
         display: none;
     }
 
-    .support_xs_md {
-
-        display: block;
-        
-        
-    }
 
     .support_msg_container,.support_icon {
 
@@ -788,7 +788,12 @@ footer {
         left: 40px;
     
     }
-    
+
+    .support_xs_md .support_icon {
+
+        margin: 0;
+    }
+
 
 }
 
