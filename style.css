@@ -383,6 +383,7 @@ form button a {
 /* footer */
 
 footer {
+    padding: 40px 0 100px 0;
 
     background-color: #031c4e;
 }
@@ -413,7 +414,7 @@ footer .social_list li{
 
     position: fixed;
     bottom: 20px;
-    right: 120px;
+    right: 100px;
 
 }
 
@@ -494,7 +495,7 @@ footer .social_list li{
 
     /* color: #293e67; */
     color: #293e67;
-   
+
 } 
 
 
@@ -642,9 +643,36 @@ footer .social_list li{
     
     }
 
+    .support_msg {
+
+        position: relative;
+    }
+
+    .caret {
+
+        line-height: 120px;
+        color: white;
+        font-size: 35px;
+        position: absolute;
+        left: 90%;
+        top: 75%;
+        transform: translate(-50%,-50%);
+    }
 
 
-    
+.support_xs_md {
+
+    position: fixed;
+    bottom: 20px;
+    left: 40px;
+
+}
+
+footer {
+
+    padding-bottom: 220px;
+}
+
 
 }
 
@@ -702,6 +730,11 @@ footer .social_list li{
         padding: 20px 0;
     }
 
+    footer {
+
+        padding-bottom: 220px;
+    }
+
     footer .logo {
 
         width: 100%;
@@ -722,6 +755,7 @@ footer .social_list li{
 
         display: block;
         
+        
     }
 
     .support_msg_container,.support_icon {
@@ -731,8 +765,30 @@ footer .social_list li{
     
     }
 
+    .support_msg {
 
+        position: relative;
+    }
 
+    .caret {
+
+        line-height: 120px;
+        color: white;
+        font-size: 35px;
+        position: absolute;
+        left: 90%;
+        top: 75%;
+        transform: translate(-50%,-50%);
+    }
+
+    .support_xs_md {
+
+        position: fixed;
+        bottom: 20px;
+        left: 40px;
+    
+    }
+    
 
 }
 
