@@ -53,16 +53,16 @@
 .col-6 .central_ul a , .col-5 .right_ul li a {
 
     text-decoration: none;
-    color: black;
+    
 
 }
 
 .col-5 .right_ul_btn a{
 
     padding:6px 5px;
-    border: 1px solid blue;
+    border: 1px solid #3383ff;
     border-radius: 10px;
-    color: black;
+    color: #3383ff;
 
 }
 
@@ -71,12 +71,10 @@
     text-align: right;
 }
 
-.hero_h1 {
+.arrows_color {
 
-    font-size: 40px;
-    color: white;
+    color: #3b88ff;
 }
-
 
 
 /* hero */
@@ -92,7 +90,7 @@
 
 .hero .container .row .hero_h1 h1{
 
-    font-size: 45px;
+    font-size: 50px;
     color: white;
     text-align: left;
 }
@@ -100,9 +98,9 @@
 .hero_p {
 
     font-size: 20px;
-    color: white;
     text-align: left;
     padding: 10px 0;
+    line-height: 30px;
 
 }
 
@@ -143,6 +141,9 @@ form button a {
     text-decoration: none;
 
 }
+
+
+
 
 /* ---------partners---------- */
 
@@ -323,8 +324,11 @@ form button a {
 
 .rockerbox {
 
-    padding: 50px 0;    
+    padding: 30px 0;   
+
 }
+
+
 
 .rockerbox img {
 
@@ -335,14 +339,13 @@ form button a {
 
 .rockerbox .col-8 {
 
-    padding: 80px 0;
+    padding: 70px 0;
+    border-radius: 20px;
 }
 
 .chevron_left ,.chevron_right {
 
     font-size: 50px;
-   
-
 }
 
 .chevron_left a ,.chevron_right a {
@@ -358,15 +361,31 @@ form button a {
     width: 100%;
 }
 
-.get_started h2 a{
+.get_started h3 {
+
+    font-size: 30px;
+}
+
+.get_started h4 a{
 
     text-decoration: none;
     color: blue;
-    border-radius: 20px;
+    border-radius: 5px;
     padding: 10px 20px;
+    font-size: 14px;
+}
+
+.rockerbox h4 a {
+
+    text-decoration: none;
 }
 
 /* footer */
+
+footer {
+
+    background-color: #031c4e;
+}
 
 footer li {
 
@@ -383,6 +402,7 @@ footer .social_list li{
 
     list-style: none;
     display: inline-block;
+    padding: 10px 5px 10px 5px;
 }
 
 
@@ -469,6 +489,14 @@ footer .social_list li{
     background-color: red;
 
 }
+
+.central_ul a.nav_color ,.central_ul li ,.right_ul a.nav_color ,.right_ul li {
+
+    /* color: #293e67; */
+    color: #293e67;
+   
+} 
+
 
 
 
