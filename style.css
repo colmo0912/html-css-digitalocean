@@ -100,7 +100,7 @@
     font-size: 20px;
     text-align: left;
     padding: 10px 0;
-    line-height: 30px;
+    
 
 }
 
@@ -231,7 +231,7 @@ form button a {
 .deploy_container_top ,.deploy_container_bottom {
 
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
 }
 
 
@@ -296,9 +296,9 @@ form button a {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    border: 1px solid blue;
+    border: 1px solid #3383ff;
     margin: auto;
-    margin: 3px;
+    margin: 1.5px;
     display: inline-block
     
 }
@@ -322,9 +322,10 @@ form button a {
 
 /* ----------------------------- */
 
+
 .rockerbox {
 
-    padding: 30px 0;   
+    padding-top: 30px;   
 
 }
 
@@ -363,16 +364,16 @@ form button a {
 
 .get_started h3 {
 
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .get_started h4 a{
 
     text-decoration: none;
-    color: blue;
+    color: #3383ff;
     border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 14px;
+    padding: 20px 20px;
+    font-size: 18px;
 }
 
 .rockerbox h4 a {
